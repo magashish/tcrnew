@@ -4,7 +4,7 @@ $nav_links = [
     ['label' => 'About',     'href' => 'about.php'],
     ['label' => 'Services',  'href' => 'services.php'],
     ['label' => 'Locations', 'href' => 'locations.php'],
-    ['label' => 'Contact',   'href' => '#contact'],
+    ['label' => 'Contact',   'href' => 'contact.php'],
 ];
 ?>
 
