@@ -62,7 +62,7 @@ $faqs = [
                     <a href="tel:+14197082325" class="btn trc-btn-primary btn-lg px-5">
                         <i class="bi bi-telephone-fill me-2"></i>Call Now
                     </a>
-                    <a href="#" class="btn trc-btn-dark btn-lg px-5">
+                    <a href="contact.php" class="btn trc-btn-dark btn-lg px-5">
                         <i class="bi bi-file-earmark-text-fill me-2"></i>Get Quote
                     </a>
                 </div>

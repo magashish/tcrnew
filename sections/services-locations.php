@@ -49,7 +49,7 @@ $cities = [
                     <a href="locations.php" class="btn trc-btn-primary btn-lg px-5">
                         <i class="bi bi-map-fill me-2"></i>All Locations
                     </a>
-                    <a href="#contact" class="btn trc-btn-dark btn-lg px-5">
+                    <a href="contact.php" class="btn trc-btn-dark btn-lg px-5">
                         <i class="bi bi-envelope-fill me-2"></i>Contact Us
                     </a>
                 </div>

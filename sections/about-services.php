@@ -43,7 +43,7 @@ $about_services = [
                     <a href="tel:+14197082325" class="btn trc-btn-primary btn-lg px-5">
                         <i class="bi bi-telephone-fill me-2"></i>Call Now
                     </a>
-                    <a href="index.php#service-sec" class="btn trc-btn-dark btn-lg px-5">
+                    <a href="services.php" class="btn trc-btn-dark btn-lg px-5">
                         <i class="bi bi-grid-fill me-2"></i>All Services
                     </a>
                 </div>
