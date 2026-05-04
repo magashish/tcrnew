@@ -1,19 +1,20 @@
-<section class="trc-oneliner section-pad">
+<section class="trc-oneliner section-pad" id="about-mission">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-7 text-center">
-                <span class="trc-section-label">Ohio's Premier NEMT Provider</span>
+
+                <span class="trc-section-label">Our Mission</span>
                 <h2 class="trc-section-heading mt-2 mb-3">
-                    #1 Rated Transportation Service Throughout Ohio
+                    Dedicated To Your Mobility And Safety
                 </h2>
                 <p class="trc-oneliner-sub mb-4">
-                    Professional Service You Can Trust
+                    Overcoming Transportation Barriers Together
                 </p>
                 <p class="trc-section-body mb-5">
-                    At TRC, we specialize in getting you to your appointments with the care and punctuality
-                    you expect from Ohio's leader in non-emergency medical transportation.
-                    We will meet you where you are.
+                    Our mission is to ensure that no one in our community misses a vital appointment
+                    due to a lack of reliable transportation.
                 </p>
+
                 <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
                     <a href="tel:+14197082325" class="btn trc-btn-primary btn-lg px-5">
                         <i class="bi bi-telephone-fill me-2"></i>Call Now
@@ -22,6 +23,7 @@
                         <i class="bi bi-chat-dots-fill me-2"></i>Text Now
                     </a>
                 </div>
+
             </div>
         </div>
     </div>

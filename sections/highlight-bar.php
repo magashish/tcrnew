@@ -1,4 +1,4 @@
-<section class="trc-highlight-bar" style="background-image: url(/trcnew284/assets/images/ohio.jpg);">
+<section class="trc-highlight-bar">
     <div class="container">
         <div class="row align-items-center gy-4">
 
