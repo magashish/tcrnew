@@ -3,27 +3,31 @@ $services = [
     [
         'title' => 'Medical Appointment Transport',
         'icon'  => 'bi-clipboard2-pulse-fill',
+        'img'   => '/trcnew284/assets/images/img1.jpg',
         'text'  => 'Dependable, on-time rides to and from routine checkups, specialist visits, and every medical appointment in between — so you can focus on your health, not logistics.',
     ],
     [
         'title' => 'Dialysis Appointment Rides',
         'icon'  => 'bi-droplet-half',
+        'img'   => '/trcnew284/assets/images/img2.jpg',
         'text'  => 'Consistent, scheduled transportation for dialysis patients who need reliable pickup and drop-off multiple times a week, without fail.',
     ],
     [
         'title' => 'Hospital Discharges',
         'icon'  => 'bi-heart-pulse-fill',
+        'img'   => '/trcnew284/assets/images/img3.jpg',
         'text'  => 'Safe and comfortable transport home after hospital stays, ensuring a smooth transition from care facility to your front door with trained, compassionate drivers.',
     ],
     [
         'title' => 'Wheelchair Accessible Rides',
-        'icon'  => 'bi bi-person-wheelchair',
+        'icon'  => 'bi-person-wheelchair',
+        'img'   => '/trcnew284/assets/images/img4.jpg',
         'text'  => 'Fully equipped, ADA-compliant vehicles designed to accommodate wheelchairs and mobility devices, so every client travels safely and with dignity.',
     ],
 ];
 ?>
 
-<section class="trc-services section-pad">
+<section class="trc-services section-pad" id="service-sec">
     <div class="container">
 
         <!-- Section header -->
@@ -47,9 +51,7 @@ $services = [
             <?php foreach ($services as $service): ?>
             <div class="col-12 col-sm-6">
                 <div class="trc-card h-100 text-center p-4">
-                    <div class="trc-card-icon mb-4">
-                        <i class="bi <?php echo htmlspecialchars($service['icon']); ?>"></i>
-                    </div>
+                    <div class="services-img" style="background-image: url(<?php echo htmlspecialchars($service['img']); ?>);"></div>
                     <h3 class="trc-card-title mb-3">
                         <?php echo htmlspecialchars($service['title']); ?>
                     </h3>
