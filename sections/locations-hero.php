@@ -1,4 +1,4 @@
-<section class="trc-hero trc-hero-inner d-flex align-items-center" style="background-image: url('/trcnew284/assets/images/locations-hero.jpg');">
+<section class="trc-hero trc-hero-inner d-flex align-items-center" style="background-image: url('/trcnew284/assets/images/ohio.jpg');">
     <div class="container position-relative z-1">
         <div class="row justify-content-center justify-content-lg-start">
             <div class="col-12 col-md-10 col-lg-7 text-center text-lg-start">

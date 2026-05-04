@@ -1,32 +1,32 @@
 <?php
 $services_list = [
     [
-        'icon'  => 'bi-clipboard2-pulse-fill',
+        'img'   => '/trcnew284/assets/images/img1.jpg',
         'title' => 'Non-Emergency Medical Transportation',
         'text'  => 'Safe, scheduled rides to all your medical appointments with trained, compassionate drivers who understand your needs and put your comfort first.',
     ],
     [
-        'icon'  => 'bi-person-wheelchair',
+        'img'   => '/trcnew284/assets/images/img2.jpg',
         'title' => 'Wheelchair Accessible Rides',
         'text'  => 'Fully equipped, ADA-compliant vehicles with securing systems designed to safely accommodate wheelchairs, scooters, and other mobility devices.',
     ],
     [
-        'icon'  => 'bi-people-fill',
+        'img'   => '/trcnew284/assets/images/img3.jpg',
         'title' => 'Senior Citizen Transport',
         'text'  => 'Thoughtful, patient transportation for seniors who need a little extra care and assistance getting safely and comfortably to their destination.',
     ],
     [
-        'icon'  => 'bi-droplet-half',
+        'img'   => '/trcnew284/assets/images/img4.jpg',
         'title' => 'Dialysis & Treatment Appointments',
         'text'  => 'Consistent, on-time rides for recurring treatments. Never miss another dialysis or therapy session with a dedicated TRC driver by your side.',
     ],
     [
-        'icon'  => 'bi-heart-pulse-fill',
+        'img'   => '/trcnew284/assets/images/img1.jpg',
         'title' => 'Hospital Discharge Services',
         'text'  => 'Smooth, reliable transport from the hospital to home following procedures or inpatient stays, handled with professionalism and genuine care.',
     ],
     [
-        'icon'  => 'bi-signpost-split-fill',
+        'img'   => '/trcnew284/assets/images/img2.jpg',
         'title' => 'Long-Distance Medical Trips',
         'text'  => 'We go the extra mile for specialized care, handling longer routes across Ohio with the same comfort, punctuality, and reliability you always expect.',
     ],
@@ -57,9 +57,7 @@ $services_list = [
             <?php foreach ($services_list as $service): ?>
             <div class="col-12 col-sm-6">
                 <div class="trc-card h-100 text-center p-4">
-                    <div class="trc-card-icon mb-4">
-                        <i class="bi <?php echo htmlspecialchars($service['icon']); ?>"></i>
-                    </div>
+                    <div class="services-img" style="background-image: url(<?php echo htmlspecialchars($service['img']); ?>);"></div>
                     <h3 class="trc-card-title mb-3">
                         <?php echo htmlspecialchars($service['title']); ?>
                     </h3>
@@ -76,8 +74,8 @@ $services_list = [
             <a href="tel:+14197082325" class="btn trc-btn-primary btn-lg px-5">
                 <i class="bi bi-telephone-fill me-2"></i>Call Now
             </a>
-            <a href="services.php" class="btn trc-btn-dark btn-lg px-5">
-                <i class="bi bi-grid-fill me-2"></i>All Services
+            <a href="contact.php" class="btn trc-btn-dark btn-lg px-5">
+                <i class="bi bi-file-earmark-text-fill me-2"></i>Get Quote
             </a>
         </div>
 

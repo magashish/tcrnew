@@ -29,7 +29,7 @@
             <div class="col-12 col-lg-6">
                 <div class="trc-story-img">
                     <img
-                        src="/trcnew284/assets/images/story.jpg"
+                        src="/trcnew284/assets/images/img4.jpg"
                         alt="TRC — A Local Team With A Passion For Helping Others"
                     >
                 </div>
