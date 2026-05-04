@@ -1,16 +1,19 @@
+<?php
+$contact_heading = $contact_heading ?? 'Contact TRC Transportation Today';
+$contact_body    = $contact_body    ?? 'We look forward to providing you with our top-rated transportation services. Reach out today to schedule your ride or ask any questions you may have.';
+?>
 <section class="trc-contact section-pad" id="contact">
     <div class="container">
 
         <!-- Section header -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-sm-5 mb-4">
             <div class="col-12 col-md-9 col-lg-6">
                 <span class="trc-section-label">Get In Touch</span>
                 <h2 class="trc-section-heading mt-2 mb-3">
-                    Contact TRC Transportation Today
+                    <?php echo htmlspecialchars($contact_heading); ?>
                 </h2>
                 <p class="trc-section-body">
-                    We look forward to providing you with our top-rated transportation services.
-                    Reach out today to schedule your ride or ask any questions you may have.
+                    <?php echo htmlspecialchars($contact_body); ?>
                 </p>
             </div>
         </div>

@@ -1,10 +1,10 @@
 <?php
 $nav_links = [
-    ['label' => 'Home',      'href' => '#'],
-    ['label' => 'About',     'href' => '#'],
-    ['label' => 'Services',  'href' => '#'],
-    ['label' => 'Locations', 'href' => '#'],
-    ['label' => 'Contact',   'href' => '#'],
+    ['label' => 'Home',      'href' => 'index.php'],
+    ['label' => 'About',     'href' => 'about.php'],
+    ['label' => 'Services',  'href' => 'services.php'],
+    ['label' => 'Locations', 'href' => 'locations.php'],
+    ['label' => 'Contact',   'href' => '#contact'],
 ];
 ?>
 
@@ -12,7 +12,7 @@ $nav_links = [
     <div class="container">
 
         <!-- Logo -->
-        <a class="navbar-brand trc-brand" href="#">
+        <a class="navbar-brand trc-brand" href="index.php">
             <img
                 src="assets/images/logo-transparent.png"
                 alt="Timely Response Couriers"
@@ -40,10 +40,10 @@ $nav_links = [
         <!-- Nav links -->
         <div class="collapse navbar-collapse" id="trcNavMenu">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-                <?php foreach ($nav_links as $index => $link): ?>
+                <?php foreach ($nav_links as $link): ?>
                 <li class="nav-item">
                     <a
-                        class="nav-link trc-nav-link<?php echo $index === 0 ? ' active' : ''; ?>"
+                        class="nav-link trc-nav-link"
                         href="<?php echo htmlspecialchars($link['href']); ?>"
                     >
                         <?php echo htmlspecialchars($link['label']); ?>

@@ -663,6 +663,32 @@ section {
 
 
 /* =============================================================
+   SERVICES PAGE
+   ============================================================= */
+
+.trc-services-page {
+    background-color: var(--trc-white);
+}
+
+/* --------- Locations Expand Note --------- */
+.trc-expand-note {
+    background-color: rgba(139, 202, 54, 0.08);
+    border: 1px solid rgba(139, 202, 54, 0.3);
+    border-radius: 10px;
+    padding: 1rem 1.4rem;
+}
+.trc-expand-note p {
+    font-size: 0.95rem;
+    color: var(--trc-primary);
+    font-weight: 500;
+    margin: 0;
+}
+.trc-expand-note .bi {
+    color: var(--trc-accent);
+}
+
+
+/* =============================================================
    ABOUT PAGE
    ============================================================= */
 
